@@ -2,7 +2,7 @@
     background-image: url(https://clipart-db.ru/file_content/rastr/flower_091.png)
 }*/
 #slider {
-    position: relative;
+    position: relative;  /*test reaccija*/
     overflow: hidden;
     width: 600px;
     height: 320px;
