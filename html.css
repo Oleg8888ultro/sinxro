@@ -3,7 +3,7 @@
 }*/
 #slider {
     position: relative;  /*test reaccija*/   /* новые изминения*/
-    overflow: hidden;
+    overflow: hidden;           /*слова добавить*/
     width: 600px;
     height: 320px;
     margin: 20px auto;
