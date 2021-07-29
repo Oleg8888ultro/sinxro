@@ -11,6 +11,12 @@
     list-style: none;
 }
 
+.container {
+   margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
 .slide {
     position: absolute;
     width: 100%;
