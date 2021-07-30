@@ -8,7 +8,7 @@ engine.volume = 0.9;
 document.querySelector('.start').addEventListener('click', function () {
     if (start === false) {
         start = true;
-        this.innerHTML = '<button>Выключить звук ?</button>'; //напишит стоп
+        this.innerHTML = 'Выключить звук ?'; //напишит стоп
         engine.play();
         document.querySelector('.treadle').addEventListener('click', pushTreadle); // событие на педаль;
         document.querySelector('.progress-line').style.width = '100px';
@@ -16,7 +16,7 @@ document.querySelector('.start').addEventListener('click', function () {
     else {
         // глушим
         start = false;
-        this.innerHTML = '<button>Продолжить слушать</button>'; //напишит старт
+        this.innerHTML = 'Продолжить слушать'; //напишит старт
         engine.pause();
         document.querySelector('.treadle').removeEventListener('click', pushTreadle); // событие на педаль;
         document.querySelector('.progress-line').style.width = '0';
